@@ -11,11 +11,11 @@ on:
       KERNEL_SOURCE_BRANCH:
         description: 'Branch'
         required: true
-        default: 'umi'
+        default: 'base'
       KERNEL_DEFCONFIG:
         description: 'Defconfig'
         required: true
-        default: 'vendor/umi_defconfig'
+        default: 'umi_defconfig'
       TARGET_ARCH:
         description: 'Target ARCH'
         required: true
